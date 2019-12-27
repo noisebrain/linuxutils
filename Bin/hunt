@@ -1,0 +1,4 @@
+#! /bin/csh -f
+
+#ffind . -name $1
+du -a . | grep -i $1
